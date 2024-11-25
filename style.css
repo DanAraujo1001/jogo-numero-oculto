@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('background-terraria.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 65vw;
+    height: 50vh;
+    margin: 12rem auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 2px 2px 5px #000;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+button {
+    font-size: 1.2rem;
+}
+
